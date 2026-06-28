@@ -39,3 +39,61 @@ It also demonstrates how **MongoDB** can serve as a reliable, scalable database 
    ```bash
    git clone git@github.com:abhi2J4/MagicStream_Movie.git
    cd MagicStream_Movie
+
+# 🎬 MagicStream — Movie Streaming Web App
+
+A full stack movie streaming platform built with React.js and Go.
+
+🌐 **Live Demo:** [https://magic-stream-movie.vercel.app](https://magic-stream-movie.vercel.app)
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Frontend | React.js, Vite, Bootstrap |
+| Backend | Go, Gin Framework |
+| Database | MongoDB, MongoDB Atlas |
+| Auth | JWT, HttpOnly Cookies |
+| Deployment | Vercel (Frontend), Render (Backend) |
+
+---
+
+## ✨ Features
+
+- 🎥 Browse and stream movie trailers
+- 🔐 User registration and login with JWT authentication
+- 🍪 Secure HttpOnly cookie-based token management
+- 🔄 Access and refresh token rotation
+- ⭐ Movie reviews and rankings
+- 🎭 Genre-based movie filtering
+- 📱 Responsive design
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js
+- Go 1.21+
+- MongoDB
+
+### Frontend Setup
+```bash
+cd Client/magic-stream-client
+npm install
+npm run dev
+```
+
+### Backend Setup
+```bash
+cd Server/MagicStreamServer
+cp .env.example .env
+# Add your MongoDB URI and other env vars
+go run main.go
+```
+
+### Environment Variables
+
+**Backend (.env)**
