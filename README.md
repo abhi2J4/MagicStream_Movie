@@ -106,17 +106,6 @@ cp .env.example .env
 go run main.go
 ```
 
-### Environment Variables
 
-**Backend (.env)**
-<<<<<<< HEAD
-DATABASE_NAME=magicstream
-MONGODB_URI=mongodb://localhost:27017/
-SECRET_KEY=your_secret_key
-SECRET_REFRESH_KEY=your_refresh_secret_key
-BASE_PROMPT_TEMPLATE=Return a response using one of these words: {rankings}. The response should be a ...
-OPENAI_API_KEY=[REDACTED]
-RECOMMENDED_MOVIE_LIMIT= 5
-ALLOWED_ORIGINS=http://localhost:3000,http://localhost:5173,http://localhost:8080
-=======
->>>>>>> 31239934f6d5f729782fb93f96cc2d3c639ae1e1
+
+
