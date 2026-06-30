@@ -48,6 +48,7 @@ A full stack movie streaming platform built with React.js and Go.
 
 ---
 
+<<<<<<< HEAD
 ## 📸 Screenshots
 #Home Page
 <p align="center">
@@ -57,6 +58,8 @@ A full stack movie streaming platform built with React.js and Go.
   <img src="./Client/magic-stream-client/src/assets/video.png" width="60%" />
 </p>
 
+=======
+>>>>>>> 31239934f6d5f729782fb93f96cc2d3c639ae1e1
 ## 🛠️ Tech Stack
 
 | Layer | Technology |
@@ -106,6 +109,7 @@ go run main.go
 ### Environment Variables
 
 **Backend (.env)**
+<<<<<<< HEAD
 DATABASE_NAME=magicstream
 MONGODB_URI=mongodb://localhost:27017/
 SECRET_KEY=your_secret_key
@@ -114,3 +118,5 @@ BASE_PROMPT_TEMPLATE=Return a response using one of these words: {rankings}. The
 OPENAI_API_KEY=[REDACTED]
 RECOMMENDED_MOVIE_LIMIT= 5
 ALLOWED_ORIGINS=http://localhost:3000,http://localhost:5173,http://localhost:8080
+=======
+>>>>>>> 31239934f6d5f729782fb93f96cc2d3c639ae1e1
